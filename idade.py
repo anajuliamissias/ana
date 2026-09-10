@@ -1,6 +1,7 @@
-idade=int(input("Digite sua idade"))
-
-if idade >=18:
-    print("Voce é maior de idade")
+idade = int(input("Digite sua idade:"))
+if idade >= 18:
+    print("Aduto")
+elif idade >= 13:
+    print("Adolescente")
 else:
-    print("Voce é maior de idade")
+    print("Criança")
